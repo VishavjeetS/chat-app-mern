@@ -15,7 +15,6 @@ const Mesasges = () => {
     }, 10);
   }, [messages]);
 
-  console.log(typeof messages);
   return (
     <div className="px-4 flex-1 overflow-auto">
       {!loading &&
